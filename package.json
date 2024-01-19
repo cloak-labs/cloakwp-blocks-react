@@ -1,0 +1,60 @@
+{
+  "name": "@cloakwp/blocks-react",
+  "version": "0.0.1",
+  "description": "UI component library for rendering Gutenberg core blocks via the CloakWP Block Renderer.",
+  "main": "dist/index",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "tsc -p tsconfig.json -w",
+    "build": "npm run build-ts",
+    "build-ts": "tsc-silent -p tsconfig.json --suppress",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "zzz-postpublish": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloak-labs/cloakwp-core-blocks-react.git"
+  },
+  "keywords": [
+    "wordpress",
+    "wp",
+    "cloakwp",
+    "cloak",
+    "headless",
+    "nextjs",
+    "next",
+    "decoupled",
+    "gutenberg",
+    "blocks"
+  ],
+  "author": "Kaelan Smith",
+  "license": "LGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/cloak-labs/cloakwp-core-blocks-react/issues"
+  },
+  "homepage": "https://github.com/cloak-labs/cloakwp-core-blocks-react#readme",
+  "devDependencies": {
+    "@cloakui/types": ">= 0.0.1",
+    "@types/node": "^18.18.1",
+    "@types/react": "18.2.37",
+    "@types/react-dom": "^18.2.8",
+    "tsc-watch": "^5.0.3",
+    "typescript": "^5.3.2"
+  },
+  "peerDependencies": {
+    "@cloakui/styles": ">= 0.0.1",
+    "@cloakui/react-primitives": ">= 0.0.1",
+    "@cloakwp/block-data-routers": ">= 0.0.1",
+    "cloakwp": ">= 0.3.8",
+    "html-react-parser": "3.x"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0"
+  }
+}
