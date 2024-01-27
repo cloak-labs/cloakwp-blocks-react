@@ -65,6 +65,10 @@ exports.CoreBlocksConfig = {
         dataRouter: block_data_routers_1.columnDataRouter,
         component: Column_1.Column,
     },
+    "core/separator": {
+        dataRouter: block_data_routers_1.separatorDataRouter,
+        component: react_primitives_1.Separator,
+    },
     // "core/group": {
     //   component: Group,
     // },

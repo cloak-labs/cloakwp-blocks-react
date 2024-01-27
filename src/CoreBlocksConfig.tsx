@@ -13,6 +13,7 @@ import {
   Html,
   TypographyH5,
   TypographyH6,
+  Separator,
 } from "@cloakui/react-primitives";
 import {
   buttonDataRouter,
@@ -24,6 +25,7 @@ import {
   htmlDataRouter,
   columnsDataRouter,
   columnDataRouter,
+  separatorDataRouter,
 } from "@cloakwp/block-data-routers";
 import { codeDataRouter } from "./data-routers/codeDataRouter";
 import { Columns } from "./components/Columns";
@@ -87,6 +89,10 @@ export const CoreBlocksConfig: WPBlocksConfig = {
   "core/column": {
     dataRouter: columnDataRouter,
     component: Column,
+  },
+  "core/separator": {
+    dataRouter: separatorDataRouter,
+    component: Separator,
   },
   // "core/group": {
   //   component: Group,
