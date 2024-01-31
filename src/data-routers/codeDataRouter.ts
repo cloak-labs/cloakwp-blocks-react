@@ -1,4 +1,3 @@
-// import { WPDataRouter } from "cloakwp";
 import { SyntaxHighlighterOptions } from "@cloakui/react-primitives";
 
 export const codeDataRouter =

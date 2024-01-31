@@ -1,2 +1,2 @@
-import type { WPBlocksConfig } from "cloakwp";
-export declare const CoreBlocksConfig: WPBlocksConfig;
+import type { WPBlocksConfigReact } from "@cloakwp/react";
+export declare const CoreBlocksConfig: WPBlocksConfigReact;
