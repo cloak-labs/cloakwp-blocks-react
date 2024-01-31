@@ -1,5 +1,9 @@
-/// <reference types="react" />
+/// <reference types="react" resolution-mode="require"/>
 export declare const column: (userOverrides?: Partial<{
-    dataRouter: import("cloakwp").WPDataRouter<import("@cloakwp/block-data-routers/dist/data-routers/columnDataRouter").ColumnProps>;
-    component: import("react").FC<import("../components/Column").ColumnProps>;
-}>) => import("cloakwp").BlocksConfig;
+    dataRouter: import("cloakwp").WPDataRouter<import("@cloakui/types").ComponentStyleProps<Record<string, any>> & {
+        children?: any;
+    } & {
+        span: number;
+    }>;
+    component: import("react").FC<import("../components/Column.js").ColumnProps>;
+}>) => import("@cloakwp/react").WPBlocksConfigReact;

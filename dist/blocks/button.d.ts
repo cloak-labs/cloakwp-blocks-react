@@ -1,6 +1,6 @@
-/// <reference types="react" />
+/// <reference types="react" resolution-mode="require"/>
 export declare const button: (userOverrides?: Partial<{
-    variantsRouter: (block: import("cloakwp").BlockDataWithExtraContext<any, Record<string, any>>) => "link" | "default";
+    variantsRouter: (block: import("cloakcms").BlockDataWithExtraContext<import("react").ComponentClass<any, any> | import("react").FunctionComponent<any>, import("cloakwp").RestApiBlockData>) => "link" | "default";
     variants: {
         default: {
             dataRouter: import("cloakwp").WPDataRouter;
@@ -12,11 +12,7 @@ export declare const button: (userOverrides?: Partial<{
         };
         link: {
             dataRouter: import("cloakwp").WPDataRouter;
-            component: ({ href, children, ...rest }: {
-                [x: string]: any;
-                href: any;
-                children: any;
-            }) => import("react/jsx-runtime").JSX.Element;
+            component: ({ href, children, ...rest }: any) => import("react/jsx-runtime").JSX.Element;
         };
     };
-}>) => import("cloakwp").BlocksConfig;
+}>) => import("@cloakwp/react").WPBlocksConfigReact;

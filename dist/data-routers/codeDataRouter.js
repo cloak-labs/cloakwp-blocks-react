@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.codeDataRouter = void 0;
-const codeDataRouter = (options = {}) => (block) => {
+export const codeDataRouter = (options = {}) => (block) => {
     // const { classes, styles } = wpBlockStyleBuilder(block);
     const { content } = block.attrs ?? {};
     let { language, code } = extractLanguage(content);
@@ -18,7 +15,6 @@ const codeDataRouter = (options = {}) => (block) => {
         props.language = language;
     return props;
 };
-exports.codeDataRouter = codeDataRouter;
 function extractLanguage(inputString) {
     // Check if the inputString contains "@lang="
     const langIndex = inputString.indexOf("@lang=");

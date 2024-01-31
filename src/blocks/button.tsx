@@ -1,6 +1,6 @@
 import { buttonDataRouter } from "@cloakwp/block-data-routers";
 import { Button, Link } from "@cloakui/react-primitives";
-import { configurableBlockPreset } from "../configurableBlockPreset";
+import { configurableBlockPreset } from "../configurableBlockPreset.js";
 
 export const button = configurableBlockPreset("core/button", {
   variantsRouter: (block) => (block.attrs.url ? "link" : "default"),
