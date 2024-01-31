@@ -1,6 +1,6 @@
-/// <reference types="react" resolution-mode="require"/>
+/// <reference types="react" />
 export declare const heading: (userOverrides?: Partial<{
-    variantsRouter: (block: import("cloakcms").BlockDataWithExtraContext<import("react").ComponentClass<any, any> | import("react").FunctionComponent<any>, import("cloakwp").RestApiBlockData>) => string;
+    variantsRouter: (block: import("cloakwp").BlockDataWithExtraContext<import("react").ComponentClass<any, any> | import("react").FunctionComponent<any>, import("cloakwp").RestApiBlockData>) => string;
     variants: {
         h1: {
             dataRouter: import("cloakwp").WPDataRouter<import("@cloakui/types").TTypographyProps>;

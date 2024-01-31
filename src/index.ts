@@ -5,7 +5,7 @@
  * or runtime performance.
  */
 import {} from "cloakwp";
-import {} from "@cloakwp/block-data-routers";
+// import {} from "@cloakwp/block-data-routers";
 
 export { button } from "./blocks/button.js";
 export { buttons } from "./blocks/buttons.js";

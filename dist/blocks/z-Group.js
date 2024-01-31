@@ -1,7 +1,6 @@
 // import Container from "../components/Container";
 // import { cx } from "@cloakui/styles";
 // import { Block, wpBlockStyleBuilder } from "cloakwp";
-export {};
 // export function Group({ block }) {
 //   const { classes, styles } = wpBlockStyleBuilder(block);
 //   if (!block?.innerBlocks) return <></>;

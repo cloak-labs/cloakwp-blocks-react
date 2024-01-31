@@ -4,24 +4,11 @@
   "description": "UI component library for rendering Gutenberg core blocks via the CloakWP Block Renderer.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "type": "module",
   "exports": {
     ".": {
       "require": "./dist/index.js",
       "import": "./dist/index.d.ts"
-    },
-    "./button": "./dist/blocks/button.js",
-    "./buttons": "./dist/blocks/buttons.js",
-    "./code": "./dist/blocks/code.js",
-    "./column": "./dist/blocks/column.js",
-    "./columns": "./dist/blocks/columns.js",
-    "./heading": "./dist/blocks/heading.js",
-    "./html": "./dist/blocks/html.js",
-    "./list": "./dist/blocks/list.js",
-    "./listItem": "./dist/blocks/list-item.js",
-    "./paragraph": "./dist/blocks/paragraph.js",
-    "./quote": "./dist/blocks/quote.js",
-    "./separator": "./dist/blocks/separator.js"
+    }
   },
   "scripts": {
     "dev": "tsc -p tsconfig.json -w",

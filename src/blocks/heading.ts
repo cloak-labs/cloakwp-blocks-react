@@ -1,5 +1,5 @@
 import { typographyDataRouter } from "@cloakwp/block-data-routers";
-import { configurableBlockPreset } from "../configurableBlockPreset.js";
+import { configurableBlockPreset } from "../configurableBlockPreset";
 import {
   TypographyH1,
   TypographyH2,
