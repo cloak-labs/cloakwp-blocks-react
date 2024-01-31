@@ -7,15 +7,15 @@
 import {} from "cloakwp";
 // import {} from "@cloakwp/block-data-routers";
 
-export { button } from "./blocks/button.js";
-export { buttons } from "./blocks/buttons.js";
-export { code } from "./blocks/code.js";
-export { column } from "./blocks/column.js";
-export { columns } from "./blocks/columns.js";
-export { heading } from "./blocks/heading.js";
-export { html } from "./blocks/html.js";
-export { listItem } from "./blocks/list-item.js";
-export { list } from "./blocks/list.js";
-export { paragraph } from "./blocks/paragraph.js";
-export { quote } from "./blocks/quote.js";
-export { separator } from "./blocks/separator.js";
+export { button } from "./blocks/button";
+export { buttons } from "./blocks/buttons";
+// export { code } from "./blocks/code";
+export { column } from "./blocks/column";
+export { columns } from "./blocks/columns";
+export { heading } from "./blocks/heading";
+export { html } from "./blocks/html";
+export { listItem } from "./blocks/list-item";
+export { list } from "./blocks/list";
+export { paragraph } from "./blocks/paragraph";
+export { quote } from "./blocks/quote";
+export { separator } from "./blocks/separator";

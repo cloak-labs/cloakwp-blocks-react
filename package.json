@@ -50,10 +50,10 @@
   },
   "peerDependencies": {
     "@cloakui/styles": ">= 0.0.1",
-    "@cloakui/react-primitives": ">= 0.0.2",
+    "@cloakui/react-primitives": ">= 0.0.3",
     "@cloakwp/block-data-routers": ">= 0.0.1",
     "@cloakwp/react": ">= 0.0.2",
-    "html-react-parser": "3.x"
+    "html-react-parser": "5.x"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.0"
