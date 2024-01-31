@@ -18,7 +18,7 @@
     "./heading": "./dist/blocks/heading.js",
     "./html": "./dist/blocks/html.js",
     "./list": "./dist/blocks/list.js",
-    "./listItem": "./dist/blocks/listItem.js",
+    "./listItem": "./dist/blocks/list-item.js",
     "./paragraph": "./dist/blocks/paragraph.js",
     "./quote": "./dist/blocks/quote.js",
     "./separator": "./dist/blocks/separator.js"
