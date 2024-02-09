@@ -1,4 +1,4 @@
-import {
+import type {
   WPBlocksConfigReact,
   WPSingleBlockConfigWithVariantsReact,
   WPSingleBlockConfigWithoutVariantsReact,
@@ -19,21 +19,3 @@ export const configurableBlockPreset =
       ...userOverrides,
     },
   });
-
-// import {
-//   BlocksConfig,
-//   SingleBlockConfigWithVariants,
-//   SingleBlockConfigWithoutVariants,
-// } from "../../../../cloakwp/core";
-
-// export const configurableBlockPreset =
-//   <TConfig = SingleBlockConfigWithoutVariants | SingleBlockConfigWithVariants>(
-//     blockName: string,
-//     blockConfig: TConfig
-//   ) =>
-//   (userOverrides?: Partial<TConfig>): BlocksConfig => ({
-//     [blockName]: {
-//       ...blockConfig,
-//       ...userOverrides,
-//     },
-//   });

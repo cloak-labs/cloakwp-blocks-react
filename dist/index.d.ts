@@ -1,11 +1,1 @@
-export { button } from "./blocks/button";
-export { buttons } from "./blocks/buttons";
-export { column } from "./blocks/column";
-export { columns } from "./blocks/columns";
-export { heading } from "./blocks/heading";
-export { html } from "./blocks/html";
-export { listItem } from "./blocks/list-item";
-export { list } from "./blocks/list";
-export { paragraph } from "./blocks/paragraph";
-export { quote } from "./blocks/quote";
-export { separator } from "./blocks/separator";
+export { configurableBlockPreset } from "./configurableBlockPreset";

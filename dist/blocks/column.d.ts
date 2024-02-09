@@ -1,6 +1,6 @@
 /// <reference types="react" />
 export declare const column: (userOverrides?: Partial<{
-    dataRouter: import("cloakwp").WPDataRouter<import("@cloakui/types").ComponentStyleProps<Record<string, any>> & {
+    dataRouter: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").ComponentStyleProps<Record<string, any>> & {
         children?: any;
     } & {
         span: number;
