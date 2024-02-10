@@ -7,15 +7,18 @@
   "exports": {
     ".": {
       "require": "./dist/index.js",
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     },
     "./ui/*": {
       "require": "./dist/components/*.js",
-      "import": "./dist/components/*.js"
+      "import": "./dist/components/*.js",
+      "types": "./dist/components/*.d.ts"
     },
     "./*": {
       "require": "./dist/blocks/*.js",
-      "import": "./dist/blocks/*.js"
+      "import": "./dist/blocks/*.js",
+      "types": "./dist/blocks/*.d.ts"
     }
   },
   "scripts": {
@@ -57,10 +60,10 @@
     "typescript": "^5.3.2"
   },
   "peerDependencies": {
-    "@cloakui/styles": ">= 0.2.0",
-    "@cloakui/react-primitives": ">= 0.1.0",
+    "@cloakui/styles": ">= 0.3.0",
+    "@cloakui/react-primitives": ">= 0.2.0",
     "@cloakwp/block-data-routers": ">= 0.1.0",
-    "@cloakwp/react": ">= 0.2.0",
+    "@cloakwp/react": ">= 0.2.1",
     "html-react-parser": "5.x"
   },
   "publishConfig": {

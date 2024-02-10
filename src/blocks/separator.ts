@@ -1,5 +1,5 @@
 import { separatorDataRouter } from "@cloakwp/block-data-routers";
-import { Separator } from "@cloakui/react-primitives";
+import { Separator } from "@cloakui/react-primitives/Separator";
 import { configurableBlockPreset } from "../configurableBlockPreset";
 
 export const separator = configurableBlockPreset("core/separator", {

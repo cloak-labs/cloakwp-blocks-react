@@ -1,6 +1,11 @@
 import { typographyDataRouter } from "@cloakwp/block-data-routers";
 import { configurableBlockPreset } from "../configurableBlockPreset";
-import { TypographyH1, TypographyH2, TypographyH3, TypographyH4, TypographyH5, TypographyH6, } from "@cloakui/react-primitives";
+import { TypographyH1 } from "@cloakui/react-primitives/TypographyH1";
+import { TypographyH2 } from "@cloakui/react-primitives/TypographyH2";
+import { TypographyH3 } from "@cloakui/react-primitives/TypographyH3";
+import { TypographyH4 } from "@cloakui/react-primitives/TypographyH4";
+import { TypographyH5 } from "@cloakui/react-primitives/TypographyH5";
+import { TypographyH6 } from "@cloakui/react-primitives/TypographyH6";
 export const heading = configurableBlockPreset("core/heading", {
     variantsRouter: (block) => `h${block.attrs.level}`,
     variants: {

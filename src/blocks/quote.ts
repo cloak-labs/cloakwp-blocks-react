@@ -1,4 +1,4 @@
-import { TypographyBlockquote } from "@cloakui/react-primitives";
+import { TypographyBlockquote } from "@cloakui/react-primitives/TypographyBlockquote";
 import { blockquoteDataRouter } from "@cloakwp/block-data-routers";
 import { configurableBlockPreset } from "../configurableBlockPreset";
 

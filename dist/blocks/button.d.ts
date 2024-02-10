@@ -1,11 +1,11 @@
 /// <reference types="react" />
 export declare const button: (userOverrides?: Partial<{
-    variantsRouter: (block: import("cloakcms").BlockDataWithExtraContext<import("react").ComponentClass<any, any> | import("react").FunctionComponent<any>, import("cloakwp/blocks").RestApiBlockData>) => "link" | "default";
+    variantsRouter: (block: import("cloakcms").BlockDataWithExtraContext<import("cloakwp/blocks").RestApiBlockData>) => "default" | "link";
     variants: {
         default: {
             dataRouter: import("cloakwp/blocks").WPDataRouter;
             component: import("react").ForwardRefExoticComponent<import("react").ButtonHTMLAttributes<HTMLButtonElement> & {
-                variants?: import("@cloakui/react-primitives").ButtonVariants;
+                variants?: import("@cloakui/react-primitives/Button").ButtonVariants;
                 children?: import("react").ReactNode;
                 asChild?: boolean;
             } & import("react").RefAttributes<HTMLButtonElement>>;

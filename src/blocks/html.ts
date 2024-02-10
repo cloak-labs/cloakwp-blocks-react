@@ -1,4 +1,4 @@
-import { Html } from "@cloakui/react-primitives";
+import { Html } from "@cloakui/react-primitives/Html";
 import { htmlDataRouter } from "@cloakwp/block-data-routers";
 import { configurableBlockPreset } from "../configurableBlockPreset";
 
