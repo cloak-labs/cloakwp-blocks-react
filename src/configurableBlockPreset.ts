@@ -3,6 +3,8 @@ import type {
   WPSingleBlockConfigWithVariantsReact,
   WPSingleBlockConfigWithoutVariantsReact,
 } from "@cloakwp/react";
+import { deepMerge } from "cloakwp/cms";
+import type { DeepPartial } from "ts-essentials";
 
 export const configurableBlockPreset =
   <
@@ -13,9 +15,6 @@ export const configurableBlockPreset =
     blockName: string,
     blockConfig: TConfig
   ) =>
-  (userOverrides?: Partial<TConfig>): WPBlocksConfigReact => ({
-    [blockName]: {
-      ...blockConfig,
-      ...userOverrides,
-    },
+  (userOverrides?: DeepPartial<TConfig>): WPBlocksConfigReact => ({
+    [blockName]: deepMerge(blockConfig, userOverrides),
   });
