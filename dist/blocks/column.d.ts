@@ -5,5 +5,9 @@ export declare const column: (userOverrides?: {
     } & {
         span: number;
     }>;
-    component?: import("react").FC<import("../components/Column").ColumnProps>;
+    component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties> & {
+        children?: import("react").ReactNode;
+    } & {
+        span: number;
+    } & import("react").RefAttributes<HTMLDivElement>>;
 }) => import("@cloakwp/react").WPBlocksConfigReact;
