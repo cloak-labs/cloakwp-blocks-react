@@ -6,7 +6,7 @@ export declare const column: (userOverrides?: {
         span: number;
     }>;
     component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties> & {
-        children?: import("react").ReactNode;
+        children?: import("react").ReactNode | (() => import("react").ReactNode);
     } & {
         span: number;
     } & import("react").RefAttributes<HTMLDivElement>>;

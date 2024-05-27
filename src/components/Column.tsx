@@ -1,9 +1,12 @@
 import { cx } from "@cloakui/styles";
 import type { GenericParentComponent } from "@cloakui/types";
-import type { CSSProperties, ReactNode, FC } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import React from "react";
 
-export type ColumnProps = GenericParentComponent<CSSProperties, ReactNode> & {
+export type ColumnProps = GenericParentComponent<
+  CSSProperties,
+  React.ReactNode | (() => React.ReactNode)
+> & {
   span: number;
 };
 
@@ -15,7 +18,7 @@ export const Column = React.forwardRef<HTMLDivElement, ColumnProps>(
       style={style}
       {...props}
     >
-      {children}
+      {typeof children == "function" ? children() : children}
     </div>
   )
 );
