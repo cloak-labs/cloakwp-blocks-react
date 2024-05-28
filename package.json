@@ -62,7 +62,7 @@
   },
   "peerDependencies": {
     "@cloakui/styles": ">= 0.3.1",
-    "@cloakui/react-primitives": ">= 0.2.2",
+    "@cloakui/react-primitives": ">= 0.2.4",
     "@cloakwp/block-data-routers": ">= 0.1.4",
     "@cloakwp/react": ">= 0.2.2",
     "html-react-parser": "5.x"
