@@ -1,5 +1,5 @@
 import { Html } from "@cloakui/react-primitives/Html";
 export declare const html: (userOverrides?: {
-    dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").THtmlProps>;
+    dataRouter?: any;
     component?: typeof Html;
-}) => import("@cloakwp/react").WPBlocksConfigReact;
+}) => BlocksConfig<TComponent, TBlockData>;

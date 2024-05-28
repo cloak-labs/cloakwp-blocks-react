@@ -1,5 +1,5 @@
 /// <reference types="react" />
 export declare const listItem: (userOverrides?: {
-    dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TTypographyListItemProps>;
+    dataRouter?: any;
     component?: import("react").FC<import("@cloakui/types").TTypographyListItemProps<import("react").CSSProperties, import("react").ReactNode>>;
-}) => import("@cloakwp/react").WPBlocksConfigReact;
+}) => BlocksConfig<TComponent, TBlockData>;

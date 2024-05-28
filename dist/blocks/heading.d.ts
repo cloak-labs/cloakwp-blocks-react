@@ -1,9 +1,9 @@
 /// <reference types="react" />
 export declare const heading: (userOverrides?: {
-    variantsRouter?: (block: import("cloakcms").BlockDataWithExtraContext<import("cloakwp/blocks").RestApiBlockData>) => string;
+    variantsRouter?: (block: any) => string;
     variants?: {
         h1?: {
-            dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TTypographyProps>;
+            dataRouter?: any;
             component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties> & {
                 children?: import("react").ReactNode;
             } & {
@@ -11,7 +11,7 @@ export declare const heading: (userOverrides?: {
             } & import("react").RefAttributes<never>>;
         };
         h2?: {
-            dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TTypographyProps>;
+            dataRouter?: any;
             component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties> & {
                 children?: import("react").ReactNode;
             } & {
@@ -19,7 +19,7 @@ export declare const heading: (userOverrides?: {
             } & import("react").RefAttributes<never>>;
         };
         h3?: {
-            dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TTypographyProps>;
+            dataRouter?: any;
             component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties> & {
                 children?: import("react").ReactNode;
             } & {
@@ -27,7 +27,7 @@ export declare const heading: (userOverrides?: {
             } & import("react").RefAttributes<never>>;
         };
         h4?: {
-            dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TTypographyProps>;
+            dataRouter?: any;
             component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties> & {
                 children?: import("react").ReactNode;
             } & {
@@ -35,7 +35,7 @@ export declare const heading: (userOverrides?: {
             } & import("react").RefAttributes<never>>;
         };
         h5?: {
-            dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TTypographyProps>;
+            dataRouter?: any;
             component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties> & {
                 children?: import("react").ReactNode;
             } & {
@@ -43,7 +43,7 @@ export declare const heading: (userOverrides?: {
             } & import("react").RefAttributes<never>>;
         };
         h6?: {
-            dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TTypographyProps>;
+            dataRouter?: any;
             component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties> & {
                 children?: import("react").ReactNode;
             } & {
@@ -51,4 +51,4 @@ export declare const heading: (userOverrides?: {
             } & import("react").RefAttributes<never>>;
         };
     };
-}) => import("@cloakwp/react").WPBlocksConfigReact;
+}) => BlocksConfig<TComponent, TBlockData>;

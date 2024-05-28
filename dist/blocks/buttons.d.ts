@@ -1,5 +1,5 @@
 /// <reference types="react" />
 export declare const buttons: (userOverrides?: {
-    dataRouter?: import("cloakwp/blocks").WPDataRouter;
+    dataRouter?: any;
     component?: import("react").FC<import("@cloakui/types").GenericParentComponent<import("react").CSSProperties, import("react").ReactNode>>;
-}) => import("@cloakwp/react").WPBlocksConfigReact;
+}) => BlocksConfig<TComponent, TBlockData>;
