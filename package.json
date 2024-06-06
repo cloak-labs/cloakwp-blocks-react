@@ -61,10 +61,11 @@
     "typescript": "^5.3.2"
   },
   "peerDependencies": {
-    "@cloakui/styles": ">= 0.3.1",
-    "@cloakui/react-primitives": ">= 0.2.4",
-    "@cloakwp/block-data-routers": ">= 0.1.4",
-    "@cloakwp/react": ">= 0.2.2",
+    "cloakcms": ">= 0.2.x",
+    "@cloakui/styles": ">= 0.3.x",
+    "@cloakui/react-primitives": ">= 0.2.x",
+    "@cloakwp/block-data-routers": ">= 0.1.x",
+    "@cloakwp/react": ">= 0.2.x",
     "html-react-parser": "5.x"
   },
   "publishConfig": {
