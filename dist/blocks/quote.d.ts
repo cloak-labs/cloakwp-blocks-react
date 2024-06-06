@@ -1,5 +1,5 @@
 /// <reference types="react" />
 export declare const quote: (userOverrides?: {
-    dataRouter?: any;
+    dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TTypographyBlockquoteProps>;
     component?: import("react").FC<import("@cloakui/types").TTypographyBlockquoteProps>;
-}) => BlocksConfig<TComponent, TBlockData>;
+}) => import("@cloakwp/react").WPBlocksConfigReact;

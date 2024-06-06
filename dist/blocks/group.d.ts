@@ -1,10 +1,10 @@
 /// <reference types="react" />
 export declare const group: (userOverrides?: {
-    dataRouter?: any;
+    dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").ContainerProps>;
     component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties> & {
         children?: import("react").ReactNode | (() => import("react").ReactNode);
     } & {
         cntrClassName?: string;
-        as?: "article" | "main" | "aside" | "div" | "footer" | "header" | "section";
+        as?: "article" | "aside" | "div" | "footer" | "header" | "main" | "section";
     } & import("react").RefAttributes<HTMLDivElement>>;
-}) => BlocksConfig<TComponent, TBlockData>;
+}) => import("@cloakwp/react").WPBlocksConfigReact;

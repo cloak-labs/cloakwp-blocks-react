@@ -1,5 +1,5 @@
 /// <reference types="react" />
 export declare const columns: (userOverrides?: {
-    dataRouter?: any;
+    dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").GenericParentComponent>;
     component?: import("react").FC<import("../components/Columns").ColumnsProps>;
-}) => BlocksConfig<TComponent, TBlockData>;
+}) => import("@cloakwp/react").WPBlocksConfigReact;

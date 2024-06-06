@@ -1,5 +1,5 @@
 /// <reference types="react" />
 export declare const separator: (userOverrides?: {
-    dataRouter?: any;
+    dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TSeparatorProps>;
     component?: import("react").FC<import("@cloakui/types").TSeparatorProps<import("react").CSSProperties>>;
-}) => BlocksConfig<TComponent, TBlockData>;
+}) => import("@cloakwp/react").WPBlocksConfigReact;
