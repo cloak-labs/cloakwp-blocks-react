@@ -4,7 +4,7 @@ export declare const heading: (userOverrides?: {
     variants?: {
         h1?: {
             dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TTypographyProps>;
-            component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties> & {
+            component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties, string> & {
                 children?: import("react").ReactNode;
             } & {
                 as: "blockquote" | "div" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p" | "span";
@@ -12,7 +12,7 @@ export declare const heading: (userOverrides?: {
         };
         h2?: {
             dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TTypographyProps>;
-            component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties> & {
+            component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties, string> & {
                 children?: import("react").ReactNode;
             } & {
                 as: "blockquote" | "div" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p" | "span";
@@ -20,7 +20,7 @@ export declare const heading: (userOverrides?: {
         };
         h3?: {
             dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TTypographyProps>;
-            component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties> & {
+            component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties, string> & {
                 children?: import("react").ReactNode;
             } & {
                 as: "blockquote" | "div" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p" | "span";
@@ -28,7 +28,7 @@ export declare const heading: (userOverrides?: {
         };
         h4?: {
             dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TTypographyProps>;
-            component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties> & {
+            component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties, string> & {
                 children?: import("react").ReactNode;
             } & {
                 as: "blockquote" | "div" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p" | "span";
@@ -36,7 +36,7 @@ export declare const heading: (userOverrides?: {
         };
         h5?: {
             dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TTypographyProps>;
-            component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties> & {
+            component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties, string> & {
                 children?: import("react").ReactNode;
             } & {
                 as: "blockquote" | "div" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p" | "span";
@@ -44,7 +44,7 @@ export declare const heading: (userOverrides?: {
         };
         h6?: {
             dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TTypographyProps>;
-            component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties> & {
+            component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties, string> & {
                 children?: import("react").ReactNode;
             } & {
                 as: "blockquote" | "div" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p" | "span";

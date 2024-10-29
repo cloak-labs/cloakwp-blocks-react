@@ -4,6 +4,6 @@
  * It allows TS to resolve types from `cloakwp`; note: the empty import doesn't affect bundle size
  * or runtime performance.
  */
-import {} from "cloakwp";
+// import {} from "cloakwp";
 
 export { configurableBlockPreset } from "./configurableBlockPreset";

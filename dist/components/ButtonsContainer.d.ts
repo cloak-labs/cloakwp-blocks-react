@@ -1,3 +1,3 @@
-import { GenericParentComponent } from "@cloakui/types";
-import { CSSProperties, ReactNode, FC } from "react";
-export declare const ButtonsContainer: FC<GenericParentComponent<CSSProperties, ReactNode>>;
+import { type FC } from "react";
+import { type ReactGenericParentComponent } from "@cloakui/react-primitives";
+export declare const ButtonsContainer: FC<ReactGenericParentComponent>;

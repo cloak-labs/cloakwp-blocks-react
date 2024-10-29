@@ -1,16 +1,15 @@
+import React from "react";
 import { cx } from "@cloakui/styles";
-import type { GenericParentComponent } from "@cloakui/types";
-import type { CSSProperties, ReactNode, FC } from "react";
+import { type ReactGenericParentComponentWithCx } from "@cloakui/react-primitives";
 
-export type ColumnsProps = GenericParentComponent<CSSProperties, ReactNode>;
+export type ColumnsProps = ReactGenericParentComponentWithCx;
 
-export const Columns: FC<ColumnsProps> = ({
+export const Columns: React.FC<ColumnsProps> = ({
   className,
-  style,
   children,
   ...props
 }) => (
-  <div className={cx("grid", className)} style={style} {...props}>
+  <div className={cx("grid", className)} {...props}>
     {children}
   </div>
 );

@@ -1,16 +1,14 @@
-import { GenericParentComponent } from "@cloakui/types";
 import { cx } from "@cloakui/styles";
-import { CSSProperties, ReactNode, FC } from "react";
+import { type FC } from "react";
+import { type ReactGenericParentComponent } from "@cloakui/react-primitives";
 
-export const ButtonsContainer: FC<
-  GenericParentComponent<CSSProperties, ReactNode>
-> = ({ children, className, style, ...props }) => {
+export const ButtonsContainer: FC<ReactGenericParentComponent> = ({
+  children,
+  className,
+  ...props
+}) => {
   return (
-    <div
-      className={cx("flex items-start gap-3", className)}
-      style={style}
-      {...props}
-    >
+    <div className={cx("flex items-start gap-3", className)} {...props}>
       {children}
     </div>
   );

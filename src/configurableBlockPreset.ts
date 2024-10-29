@@ -3,12 +3,12 @@ import type {
   WPSingleBlockConfigWithVariantsReact,
   WPSingleBlockConfigWithoutVariantsReact,
 } from "@cloakwp/react";
-import { deepMerge } from "cloakwp/cms";
+import { deepMerge } from "@kaelan/deep-merge-ts";
 import type { DeepPartial } from "ts-essentials";
 
 export const configurableBlockPreset =
   <
-    TConfig =
+    TConfig extends Record<string, unknown> =
       | WPSingleBlockConfigWithoutVariantsReact
       | WPSingleBlockConfigWithVariantsReact
   >(

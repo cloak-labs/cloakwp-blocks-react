@@ -1,4 +1,4 @@
-import type { GenericParentComponent } from "@cloakui/types";
-import type { CSSProperties, ReactNode, FC } from "react";
-export type ColumnsProps = GenericParentComponent<CSSProperties, ReactNode>;
-export declare const Columns: FC<ColumnsProps>;
+import React from "react";
+import { type ReactGenericParentComponentWithCx } from "@cloakui/react-primitives";
+export type ColumnsProps = ReactGenericParentComponentWithCx;
+export declare const Columns: React.FC<ColumnsProps>;
