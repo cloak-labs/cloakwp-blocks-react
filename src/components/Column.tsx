@@ -6,22 +6,25 @@ export type ColumnProps = ReactGenericParentComponentWithCx<
   React.ReactNode | (() => React.ReactNode)
 > & {
   span: number;
+  totalSiblings: number;
 };
 
 export const Column = React.forwardRef<HTMLDivElement, ColumnProps>(
-  ({ span, className, style, children, ...props }, ref) => {
-    console.log("col className: ", className);
-    return (
-      <div
-        ref={ref}
-        className={cx("flex flex-col", `col-span-${span}`, className)}
-        style={style}
-        {...props}
-      >
-        {typeof children == "function" ? children() : children}
-      </div>
-    );
-  }
+  ({ span, totalSiblings, className, style, children, ...props }, ref) => (
+    <div
+      ref={ref}
+      className={cx(
+        "flex flex-col col-span-full",
+        totalSiblings == 2 && `md:col-span-${span}`,
+        totalSiblings >= 3 && `sm:col-span-${span}`,
+        className
+      )}
+      style={style}
+      {...props}
+    >
+      {typeof children == "function" ? children() : children}
+    </div>
+  )
 );
 
 Column.displayName = "Column";

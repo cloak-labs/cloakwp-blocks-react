@@ -8,7 +8,10 @@ export const ButtonsContainer: FC<ReactGenericParentComponent> = ({
   ...props
 }) => {
   return (
-    <div className={cx("flex items-start gap-3", className)} {...props}>
+    <div
+      className={cx("flex flex-wrap items-start gap-3", className)}
+      {...props}
+    >
       {children}
     </div>
   );

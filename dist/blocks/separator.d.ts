@@ -26,4 +26,7 @@ export declare const separator: (userOverrides?: {
     })[] | {
         [x: string]: any;
     }>>;
+    meta?: {
+        [x: string]: any;
+    };
 }) => import("@cloakwp/react").WPBlocksConfigReact;

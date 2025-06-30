@@ -6,32 +6,33 @@ import { TypographyH3 } from "@cloakui/react-primitives/TypographyH3";
 import { TypographyH4 } from "@cloakui/react-primitives/TypographyH4";
 import { TypographyH5 } from "@cloakui/react-primitives/TypographyH5";
 import { TypographyH6 } from "@cloakui/react-primitives/TypographyH6";
+import { withStringToHtml } from "@cloakui/react-primitives/withStringToHtml";
 export const heading = configurableBlockPreset("core/heading", {
     variantsRouter: (block) => `h${block.attrs.level}`,
     variants: {
         h1: {
             dataRouter: typographyDataRouter,
-            component: TypographyH1,
+            component: withStringToHtml(TypographyH1),
         },
         h2: {
             dataRouter: typographyDataRouter,
-            component: TypographyH2,
+            component: withStringToHtml(TypographyH2),
         },
         h3: {
             dataRouter: typographyDataRouter,
-            component: TypographyH3,
+            component: withStringToHtml(TypographyH3),
         },
         h4: {
             dataRouter: typographyDataRouter,
-            component: TypographyH4,
+            component: withStringToHtml(TypographyH4),
         },
         h5: {
             dataRouter: typographyDataRouter,
-            component: TypographyH5,
+            component: withStringToHtml(TypographyH5),
         },
         h6: {
             dataRouter: typographyDataRouter,
-            component: TypographyH6,
+            component: withStringToHtml(TypographyH6),
         },
     },
 });

@@ -40,4 +40,7 @@ export declare const button: (userOverrides?: {
             component?: ({ href, children, ...rest }: any) => import("react/jsx-runtime").JSX.Element;
         };
     };
+    meta?: {
+        [x: string]: any;
+    };
 }) => import("@cloakwp/react").WPBlocksConfigReact;

@@ -7,4 +7,7 @@ export declare const group: (userOverrides?: {
         cntrClassName?: string;
         as?: "article" | "aside" | "div" | "footer" | "header" | "main" | "section";
     } & import("react").RefAttributes<HTMLDivElement>>;
+    meta?: {
+        [x: string]: any;
+    };
 }) => import("@cloakwp/react").WPBlocksConfigReact;
