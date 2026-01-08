@@ -1,6 +1,6 @@
 /// <reference types="react" />
 export declare const list: (userOverrides?: {
-    dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").TTypographyListProps>;
+    dataRouter?: import("cloakwp/blocks/types").WPDataRouter<import("@cloakui/types").TTypographyListProps>;
     component?: import("react").ForwardRefExoticComponent<Omit<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties, string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | any[] | {
         [x: string]: any;
     })[] | {

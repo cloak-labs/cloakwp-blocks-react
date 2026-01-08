@@ -1,6 +1,6 @@
 /// <reference types="react" />
 export declare const column: (userOverrides?: {
-    dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").ComponentStyleProps<Record<string, any>, string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | any | {
+    dataRouter?: import("cloakwp/blocks/types").WPDataRouter<import("@cloakui/types").ComponentStyleProps<Record<string, any>, string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | any | {
         [x: string]: any;
     })[] | {
         [x: string]: any;

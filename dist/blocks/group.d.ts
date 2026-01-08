@@ -1,6 +1,6 @@
 /// <reference types="react" />
 export declare const group: (userOverrides?: {
-    dataRouter?: import("cloakwp/blocks").WPDataRouter<import("@cloakui/types").ContainerProps>;
+    dataRouter?: import("cloakwp/blocks/types").WPDataRouter<import("@cloakui/types").ContainerProps>;
     component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties, string> & {
         children?: import("react").ReactNode | (() => import("react").ReactNode);
     } & {

@@ -1,9 +1,9 @@
 /// <reference types="react" />
 export declare const button: (userOverrides?: {
-    variantsRouter?: (block: import("cloakcms").BlockDataWithExtraContext<import("cloakwp/blocks").RestApiBlockData>) => "link" | "default";
+    variantsRouter?: (block: import("cloakcms").BlockDataWithExtraContext<import("cloakwp/blocks/types").RestApiBlockData>) => "link" | "default";
     variants?: {
         default?: {
-            dataRouter?: import("cloakwp/blocks").WPDataRouter;
+            dataRouter?: import("cloakwp/blocks/types").WPDataRouter;
             component?: import("react").ForwardRefExoticComponent<Omit<import("react").ButtonHTMLAttributes<HTMLButtonElement>, "className"> & {
                 variants?: import("@cloakui/styles").ButtonVariants;
                 children?: import("react").ReactNode;
@@ -36,7 +36,7 @@ export declare const button: (userOverrides?: {
             } & import("react").RefAttributes<HTMLButtonElement>>;
         };
         link?: {
-            dataRouter?: import("cloakwp/blocks").WPDataRouter;
+            dataRouter?: import("cloakwp/blocks/types").WPDataRouter;
             component?: ({ href, children, ...rest }: any) => import("react/jsx-runtime").JSX.Element;
         };
     };
