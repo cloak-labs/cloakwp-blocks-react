@@ -64,3 +64,4 @@ export declare const column: (userOverrides?: {
         [x: string]: any;
     };
 }) => import("@cloakwp/react").WPBlocksConfigReact;
+//# sourceMappingURL=column.d.ts.map

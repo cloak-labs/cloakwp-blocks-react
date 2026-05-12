@@ -32,3 +32,4 @@ export declare const list: (userOverrides?: {
         [x: string]: any;
     };
 }) => import("@cloakwp/react").WPBlocksConfigReact;
+//# sourceMappingURL=list.d.ts.map

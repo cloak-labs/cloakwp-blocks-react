@@ -30,3 +30,4 @@ export declare const separator: (userOverrides?: {
         [x: string]: any;
     };
 }) => import("@cloakwp/react").WPBlocksConfigReact;
+//# sourceMappingURL=separator.d.ts.map

@@ -6,3 +6,4 @@ export declare const buttons: (userOverrides?: {
         [x: string]: any;
     };
 }) => import("@cloakwp/react").WPBlocksConfigReact;
+//# sourceMappingURL=buttons.d.ts.map

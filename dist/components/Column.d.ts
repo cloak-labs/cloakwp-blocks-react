@@ -34,3 +34,4 @@ export declare const Column: React.ForwardRefExoticComponent<import("@cloakui/ty
     span: number;
     totalSiblings: number;
 } & React.RefAttributes<HTMLDivElement>>;
+//# sourceMappingURL=Column.d.ts.map

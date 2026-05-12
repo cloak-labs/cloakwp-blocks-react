@@ -5,3 +5,4 @@
  * or runtime performance.
  */
 export { configurableBlockPreset } from "./configurableBlockPreset";
+//# sourceMappingURL=index.d.ts.map

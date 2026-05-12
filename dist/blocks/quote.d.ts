@@ -6,3 +6,4 @@ export declare const quote: (userOverrides?: {
         [x: string]: any;
     };
 }) => import("@cloakwp/react").WPBlocksConfigReact;
+//# sourceMappingURL=quote.d.ts.map

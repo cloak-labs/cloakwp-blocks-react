@@ -11,3 +11,4 @@ export declare const group: (userOverrides?: {
         [x: string]: any;
     };
 }) => import("@cloakwp/react").WPBlocksConfigReact;
+//# sourceMappingURL=group.d.ts.map
