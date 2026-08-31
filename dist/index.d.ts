@@ -5,4 +5,5 @@
  * or runtime performance.
  */
 export { configurableBlockPreset } from "./configurableBlockPreset";
+export { applyColumnLayoutSlot, applyCoreBlockLayoutSlot, applyFlexItemLayoutSlot, columnFractionByBreakpoint, getLayoutSlot, } from "./layoutSlot";
 //# sourceMappingURL=index.d.ts.map

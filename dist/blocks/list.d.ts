@@ -27,7 +27,19 @@ export declare const list: (userOverrides?: {
         children?: import("react").ReactNode;
     } & {
         as: "ol" | "ul";
-    } & import("react").RefAttributes<HTMLOListElement | HTMLUListElement>, "ref"> & import("react").RefAttributes<any>>;
+    } & import("react").RefAttributes<HTMLOListElement | HTMLUListElement>, "ref"> & {
+        children?: import("react").ReactNode;
+    } & import("react").RefAttributes<any>>;
+    nestedBlocks?: {
+        trees?: (block: {
+            innerBlocks?: import("cloakwp/blocks/types").RestApiBlockData[];
+        }) => {
+            blocks: import("cloakwp/blocks/types").RestApiBlockData[];
+        }[];
+        attach?: (props: Record<string, any>, rendered: {
+            output: unknown;
+        }[]) => void;
+    }[];
     meta?: {
         [x: string]: any;
     };

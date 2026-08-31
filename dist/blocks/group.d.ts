@@ -7,6 +7,16 @@ export declare const group: (userOverrides?: {
         cntrClassName?: string;
         as?: "article" | "aside" | "div" | "footer" | "header" | "main" | "section";
     } & import("react").RefAttributes<HTMLDivElement>>;
+    nestedBlocks?: {
+        trees?: (block: {
+            innerBlocks?: import("cloakwp/blocks/types").RestApiBlockData[];
+        }) => {
+            blocks: import("cloakwp/blocks/types").RestApiBlockData[];
+        }[];
+        attach?: (props: Record<string, any>, rendered: {
+            output: unknown;
+        }[]) => void;
+    }[];
     meta?: {
         [x: string]: any;
     };

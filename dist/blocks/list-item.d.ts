@@ -29,7 +29,19 @@ export declare const listItem: (userOverrides?: {
         children?: import("react").ReactNode;
     } & {
         content: string;
+    } & {
+        children?: import("react").ReactNode;
     } & import("react").RefAttributes<any>>;
+    nestedBlocks?: {
+        trees?: (block: {
+            innerBlocks?: import("cloakwp/blocks/types").RestApiBlockData[];
+        }) => {
+            blocks: import("cloakwp/blocks/types").RestApiBlockData[];
+        }[];
+        attach?: (props: Record<string, any>, rendered: {
+            output: unknown;
+        }[]) => void;
+    }[];
     meta?: {
         [x: string]: any;
     };

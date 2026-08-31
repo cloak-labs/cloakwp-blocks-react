@@ -1,6 +1,6 @@
 /// <reference types="react" />
 export declare const button: (userOverrides?: {
-    variantsRouter?: (block: import("cloakcms").BlockDataWithExtraContext<import("cloakwp/blocks/types").RestApiBlockData>) => "link" | "default";
+    variantsRouter?: (block: import("@cloakui/block-renderer").BlockDataWithExtraContext<import("cloakwp/blocks/types").RestApiBlockData>) => "link" | "default";
     variants?: {
         default?: {
             dataRouter?: import("cloakwp/blocks/types").WPDataRouter;
@@ -37,7 +37,7 @@ export declare const button: (userOverrides?: {
         };
         link?: {
             dataRouter?: import("cloakwp/blocks/types").WPDataRouter;
-            component?: ({ href, children, ...rest }: any) => import("react/jsx-runtime").JSX.Element;
+            component?: ({ href, children, ...rest }: any) => import("react").JSX.Element;
         };
     };
     meta?: {

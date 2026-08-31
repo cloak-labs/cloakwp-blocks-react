@@ -4,12 +4,12 @@ import { type ReactGenericParentComponentWithCx } from "@cloakui/react-primitive
 
 export type ColumnsProps = ReactGenericParentComponentWithCx;
 
-export const Columns: React.FC<ColumnsProps> = ({
-  className,
-  children,
-  ...props
-}) => (
-  <div className={cx("grid", className)} {...props}>
-    {children}
-  </div>
+export const Columns = React.forwardRef<HTMLDivElement, ColumnsProps>(
+  ({ className, children, ...props }, ref) => (
+    <div ref={ref} className={cx("grid", className)} {...props}>
+      {children}
+    </div>
+  ),
 );
+
+Columns.displayName = "Columns";

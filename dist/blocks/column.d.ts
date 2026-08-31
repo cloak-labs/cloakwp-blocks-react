@@ -60,8 +60,21 @@ export declare const column: (userOverrides?: {
         span: number;
         totalSiblings: number;
     } & import("react").RefAttributes<HTMLDivElement>>;
+    nestedBlocks?: {
+        trees?: (block: {
+            innerBlocks?: import("cloakwp/blocks/types").RestApiBlockData[];
+        }) => {
+            blocks: import("cloakwp/blocks/types").RestApiBlockData[];
+        }[];
+        attach?: (props: Record<string, any>, rendered: {
+            output: unknown;
+        }[]) => void;
+    }[];
     meta?: {
         [x: string]: any;
+        container?: {
+            strategy?: string;
+        };
     };
 }) => import("@cloakwp/react").WPBlocksConfigReact;
 //# sourceMappingURL=column.d.ts.map

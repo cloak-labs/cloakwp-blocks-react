@@ -6,3 +6,4 @@
  */
 // import {} from "cloakwp";
 export { configurableBlockPreset } from "./configurableBlockPreset";
+export { applyColumnLayoutSlot, applyCoreBlockLayoutSlot, applyFlexItemLayoutSlot, columnFractionByBreakpoint, getLayoutSlot, } from "./layoutSlot";
