@@ -54,7 +54,7 @@ export declare const column: (userOverrides?: {
     })[] | {
         [x: string]: any;
     }> & {
-        children?: import("react").ReactNode | (() => React.ReactNode);
+        children?: (() => React.ReactNode) | import("react").ReactNode;
     } & {
         span: number;
         totalSiblings: number;

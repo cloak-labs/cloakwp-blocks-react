@@ -1,4 +1,7 @@
 export declare const buttons: (userOverrides?: {
+    meta?: {
+        [x: string]: any;
+    };
     dataRouter?: import("cloakwp/blocks/types").WPDataRouter<import("@cloakui/types").GenericParentComponentWithCx>;
     component?: import("react").FC<import("@cloakui/react-primitives").ReactGenericParentComponent>;
     nestedBlocks?: {
@@ -11,8 +14,5 @@ export declare const buttons: (userOverrides?: {
             output: unknown;
         }[]) => void;
     }[];
-    meta?: {
-        [x: string]: any;
-    };
 }) => import("@cloakwp/react").WPBlocksConfigReact;
 //# sourceMappingURL=buttons.d.ts.map

@@ -1,4 +1,7 @@
 export declare const list: (userOverrides?: {
+    meta?: {
+        [x: string]: any;
+    };
     dataRouter?: import("cloakwp/blocks/types").WPDataRouter<import("@cloakui/types").TTypographyListProps>;
     component?: import("react").ForwardRefExoticComponent<Omit<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties, string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | any[] | {
         [x: string]: any;
@@ -39,8 +42,5 @@ export declare const list: (userOverrides?: {
             output: unknown;
         }[]) => void;
     }[];
-    meta?: {
-        [x: string]: any;
-    };
 }) => import("@cloakwp/react").WPBlocksConfigReact;
 //# sourceMappingURL=list.d.ts.map

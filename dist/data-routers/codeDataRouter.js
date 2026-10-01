@@ -1,3 +1,4 @@
+"use strict";
 // import { SyntaxHighlighterOptions } from "@cloakui/react-primitives";
 // export const codeDataRouter =
 //   (options: SyntaxHighlighterOptions = {}) =>

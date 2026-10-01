@@ -12,13 +12,6 @@ export declare const innerBlocksChildren: {
 };
 /** Render column children with `fromParent.colSpans` for span layout. */
 export declare const columnsNestedBlocks: {
-    renderOptions: (block: {
-        innerBlocks?: RestApiBlockData[];
-    }) => {
-        fromParent: {
-            colSpans: number[];
-        };
-    };
     trees: (block: {
         innerBlocks?: RestApiBlockData[];
     }) => {
@@ -27,5 +20,12 @@ export declare const columnsNestedBlocks: {
     attach: (props: Record<string, any>, rendered: {
         output: unknown;
     }[]) => void;
+    renderOptions: (block: {
+        innerBlocks?: RestApiBlockData[];
+    }) => {
+        fromParent: {
+            colSpans: number[];
+        };
+    };
 };
 //# sourceMappingURL=nestedBlocks.d.ts.map

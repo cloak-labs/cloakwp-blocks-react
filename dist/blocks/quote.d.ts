@@ -1,4 +1,7 @@
 export declare const quote: (userOverrides?: {
+    meta?: {
+        [x: string]: any;
+    };
     dataRouter?: import("cloakwp/blocks/types").WPDataRouter<import("@cloakui/types").TTypographyBlockquoteProps>;
     component?: import("react").FC<import("@cloakui/types").TTypographyBlockquoteProps>;
     nestedBlocks?: {
@@ -11,8 +14,5 @@ export declare const quote: (userOverrides?: {
             output: unknown;
         }[]) => void;
     }[];
-    meta?: {
-        [x: string]: any;
-    };
 }) => import("@cloakwp/react").WPBlocksConfigReact;
 //# sourceMappingURL=quote.d.ts.map

@@ -1,3 +1,4 @@
+"use strict";
 // import { CodeBlock } from "@cloakui/react-primitives/CodeBlock";
 // import { configurableBlockPreset } from "../configurableBlockPreset";
 // import { codeDataRouter } from "../data-routers/codeDataRouter";

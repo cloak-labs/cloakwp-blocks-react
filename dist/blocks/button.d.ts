@@ -1,5 +1,8 @@
 export declare const button: (userOverrides?: {
-    variantsRouter?: (block: import("@cloakui/block-renderer").BlockDataWithExtraContext<import("cloakwp/blocks/types").RestApiBlockData>) => "link" | "default";
+    meta?: {
+        [x: string]: any;
+    };
+    variantsRouter?: (block: import("@cloakui/block-renderer").BlockDataWithExtraContext<import("cloakwp/blocks/types").RestApiBlockData>) => "default" | "link";
     variants?: {
         default?: {
             dataRouter?: import("cloakwp/blocks/types").WPDataRouter;
@@ -14,9 +17,6 @@ export declare const button: (userOverrides?: {
             dataRouter?: import("cloakwp/blocks/types").WPDataRouter;
             component?: ({ href, children, ...rest }: any) => import("react").JSX.Element;
         };
-    };
-    meta?: {
-        [x: string]: any;
     };
 }) => import("@cloakwp/react").WPBlocksConfigReact;
 //# sourceMappingURL=button.d.ts.map

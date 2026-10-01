@@ -1,7 +1,10 @@
 export declare const group: (userOverrides?: {
+    meta?: {
+        [x: string]: any;
+    };
     dataRouter?: import("cloakwp/blocks/types").WPDataRouter<import("@cloakui/types").ContainerProps>;
     component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties, string> & {
-        children?: React.ReactNode | (() => React.ReactNode);
+        children?: (() => React.ReactNode) | React.ReactNode;
     } & {
         cntrClassName?: string;
         as?: "article" | "aside" | "div" | "footer" | "header" | "main" | "section";
@@ -16,8 +19,5 @@ export declare const group: (userOverrides?: {
             output: unknown;
         }[]) => void;
     }[];
-    meta?: {
-        [x: string]: any;
-    };
 }) => import("@cloakwp/react").WPBlocksConfigReact;
 //# sourceMappingURL=group.d.ts.map

@@ -29,7 +29,7 @@ export declare const Column: React.ForwardRefExoticComponent<import("@cloakui/ty
 })[] | {
     [x: string]: any;
 }> & {
-    children?: React.ReactNode | (() => React.ReactNode);
+    children?: (() => React.ReactNode) | React.ReactNode;
 } & {
     span: number;
     totalSiblings: number;
