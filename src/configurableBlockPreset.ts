@@ -10,13 +10,13 @@ export const configurableBlockPreset =
   <
     TConfig extends Record<string, unknown> =
       | WPSingleBlockConfigWithoutVariantsReact
-      | WPSingleBlockConfigWithVariantsReact
+      | WPSingleBlockConfigWithVariantsReact,
   >(
     blockName: string,
-    blockConfig: TConfig
+    blockConfig: TConfig,
   ) =>
   (
-    userOverrides?: DeepPartial<TConfig & { meta?: Record<string, any> }>
+    userOverrides?: DeepPartial<TConfig & { meta?: Record<string, any> }>,
   ): WPBlocksConfigReact => ({
     [blockName]: deepMerge(blockConfig, userOverrides),
   });

@@ -17,14 +17,14 @@ export const Column = React.forwardRef<HTMLDivElement, ColumnProps>(
         "flex flex-col col-span-full",
         totalSiblings == 2 && `md:col-span-${span}`,
         totalSiblings >= 3 && `sm:col-span-${span}`,
-        className
+        className,
       )}
       style={style}
       {...props}
     >
       {typeof children == "function" ? children() : children}
     </div>
-  )
+  ),
 );
 
 Column.displayName = "Column";

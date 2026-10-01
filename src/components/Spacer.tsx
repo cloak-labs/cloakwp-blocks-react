@@ -13,7 +13,7 @@ export const Spacer = React.forwardRef<HTMLDivElement, SpacerProps>(
       style={style}
       {...props}
     />
-  )
+  ),
 );
 
 Spacer.displayName = "Spacer";
