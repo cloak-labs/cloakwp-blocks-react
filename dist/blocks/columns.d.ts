@@ -1,7 +1,6 @@
-/// <reference types="react" />
 export declare const columns: (userOverrides?: {
     dataRouter?: import("cloakwp/blocks/types").WPDataRouter<import("@cloakui/types").GenericParentComponentWithCx>;
-    component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("@cloakui/react-primitives").CSSPropertiesAndVariables, string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | any | {
+    component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("@cloakui/react-primitives").CSSPropertiesAndVariables, string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | /*elided*/ any | {
         [x: string]: any;
     })[] | {
         [x: string]: any;

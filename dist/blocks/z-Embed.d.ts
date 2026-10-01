@@ -1,4 +1,3 @@
-/// <reference types="react" />
 export declare function Embed({ block, className }: {
     block: any;
     className: any;

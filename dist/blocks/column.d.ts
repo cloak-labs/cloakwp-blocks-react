@@ -1,6 +1,5 @@
-/// <reference types="react" />
 export declare const column: (userOverrides?: {
-    dataRouter?: import("cloakwp/blocks/types").WPDataRouter<import("@cloakui/types").ComponentStyleProps<Record<string, any>, string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | any | {
+    dataRouter?: import("cloakwp/blocks/types").WPDataRouter<import("@cloakui/types").ComponentStyleProps<Record<string, any>, string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | /*elided*/ any | {
         [x: string]: any;
     })[] | {
         [x: string]: any;
@@ -30,7 +29,7 @@ export declare const column: (userOverrides?: {
         span: number;
         totalSiblings: number;
     }>;
-    component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("@cloakui/react-primitives").CSSPropertiesAndVariables, string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | any | {
+    component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("@cloakui/react-primitives").CSSPropertiesAndVariables, string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | /*elided*/ any | {
         [x: string]: any;
     })[] | {
         [x: string]: any;
@@ -55,7 +54,7 @@ export declare const column: (userOverrides?: {
     })[] | {
         [x: string]: any;
     }> & {
-        children?: import("react").ReactNode | (() => import("react").ReactNode);
+        children?: import("react").ReactNode | (() => React.ReactNode);
     } & {
         span: number;
         totalSiblings: number;

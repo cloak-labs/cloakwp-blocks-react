@@ -4,7 +4,7 @@ export type ColumnProps = ReactGenericParentComponentWithCx<React.ReactNode | ((
     span: number;
     totalSiblings: number;
 };
-export declare const Column: React.ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("@cloakui/react-primitives").CSSPropertiesAndVariables, string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | any | {
+export declare const Column: React.ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("@cloakui/react-primitives").CSSPropertiesAndVariables, string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | /*elided*/ any | {
     [x: string]: any;
 })[] | {
     [x: string]: any;

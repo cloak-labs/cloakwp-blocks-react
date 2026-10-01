@@ -1,4 +1,3 @@
-/// <reference types="react" />
 export declare const button: (userOverrides?: {
     variantsRouter?: (block: import("@cloakui/block-renderer").BlockDataWithExtraContext<import("cloakwp/blocks/types").RestApiBlockData>) => "link" | "default";
     variants?: {
@@ -6,33 +5,9 @@ export declare const button: (userOverrides?: {
             dataRouter?: import("cloakwp/blocks/types").WPDataRouter;
             component?: import("react").ForwardRefExoticComponent<Omit<import("react").ButtonHTMLAttributes<HTMLButtonElement>, "className"> & {
                 variants?: import("@cloakui/styles").ButtonVariants;
-                children?: import("react").ReactNode;
+                children?: string | React.ReactNode;
                 asChild?: boolean;
-                className?: string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | any | {
-                    [x: string]: any;
-                })[] | {
-                    [x: string]: any;
-                })[] | {
-                    [x: string]: any;
-                })[] | {
-                    [x: string]: any;
-                })[] | {
-                    [x: string]: any;
-                })[] | {
-                    [x: string]: any;
-                })[] | {
-                    [x: string]: any;
-                })[] | {
-                    [x: string]: any;
-                })[] | {
-                    [x: string]: any;
-                })[] | {
-                    [x: string]: any;
-                })[] | {
-                    [x: string]: any;
-                })[] | {
-                    [x: string]: any;
-                };
+                className?: import("@cloakui/styles").ClassValue;
             } & import("react").RefAttributes<HTMLButtonElement>>;
         };
         link?: {

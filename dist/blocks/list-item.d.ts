@@ -1,7 +1,6 @@
-/// <reference types="react" />
 export declare const listItem: (userOverrides?: {
     dataRouter?: import("cloakwp/blocks/types").WPDataRouter<import("@cloakui/types").TTypographyListItemProps>;
-    component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties, string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | any | {
+    component?: import("react").ForwardRefExoticComponent<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties, string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | /*elided*/ any | {
         [x: string]: any;
     })[] | {
         [x: string]: any;
@@ -30,7 +29,7 @@ export declare const listItem: (userOverrides?: {
     } & {
         content: string;
     } & {
-        children?: import("react").ReactNode;
+        children?: React.ReactNode;
     } & import("react").RefAttributes<any>>;
     nestedBlocks?: {
         trees?: (block: {

@@ -1,4 +1,3 @@
-/// <reference types="react" />
 export declare const list: (userOverrides?: {
     dataRouter?: import("cloakwp/blocks/types").WPDataRouter<import("@cloakui/types").TTypographyListProps>;
     component?: import("react").ForwardRefExoticComponent<Omit<import("@cloakui/types").ComponentStyleProps<import("react").CSSProperties, string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | (string | number | boolean | any[] | {
@@ -24,11 +23,11 @@ export declare const list: (userOverrides?: {
     })[] | {
         [x: string]: any;
     }> & {
-        children?: import("react").ReactNode;
+        children?: React.ReactNode;
     } & {
         as: "ol" | "ul";
     } & import("react").RefAttributes<HTMLOListElement | HTMLUListElement>, "ref"> & {
-        children?: import("react").ReactNode;
+        children?: React.ReactNode;
     } & import("react").RefAttributes<any>>;
     nestedBlocks?: {
         trees?: (block: {
