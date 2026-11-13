@@ -3,7 +3,6 @@
 // export const codeDataRouter =
 //   (options: SyntaxHighlighterOptions = {}) =>
 //   (block) => {
-//     // const { classes, styles } = wpBlockStyleBuilder(block);
 //     const { content } = block.attrs ?? {};
 //     let { language, code } = extractLanguage(content);
 
